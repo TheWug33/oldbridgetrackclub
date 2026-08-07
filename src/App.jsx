@@ -136,9 +136,10 @@ function Programs() {
 
 function Reviews() {
   const reviews = [
-    { text: '"My son could not stop talking about camp every single week. He came home tired, happy, and full of stories about his relay team. I have never seen him so excited about exercise."', author: 'Sarah M.', role: 'Parent of a 5th grader' },
-    { text: '"The coaches are incredible — patient, encouraging, and clearly know what they are doing. My daughter started the summer afraid to race anyone. By session 6 she was begging for more."', author: 'Mike D.', role: 'Parent of a 3rd grader' },
-    { text: '"Both my kids went and the sibling discount was a huge plus. The age-grouped sessions meant each of them got the right level of attention. Worth every penny and we are signing up for the fall."', author: 'Jenna R.', role: 'Parent of a 2nd and 6th grader' },
+    { text: '"This was my daughter\'s first opportunity to try out track and I\'m so glad she did. Appreciate all the time and effort you all put in this summer. She\'s now very interested in joining the middle school team."', author: 'Track Club Parent' },
+    { text: '"Great program and very well ran. My son absolutely loved it. Thank you!"', author: 'Track Club Parent' },
+    { text: '"Thank you and all the other coaches that made this possible. My son really enjoys this and it\'s great to see this becoming a community. We will definitely sign him up for the Fall session."', author: 'Track Club Parent' },
+    { text: '"Thank you for an amazing season and an amazing introduction to track for my son! He really enjoyed his time with you all. I am excited for him to continue this venture with Cross Country. It also helped me learn so that I can try my best to help him out."', author: 'Track Club Parent' },
   ];
   return (
     <section className="reviews" id="reviews">
@@ -152,7 +153,6 @@ function Reviews() {
               <div className="review-stars">★★★★★</div>
               <p className="review-text">{r.text}</p>
               <div className="review-author">— {r.author}</div>
-              <div className="review-role">{r.role}</div>
             </div>
           ))}
         </div>
