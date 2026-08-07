@@ -157,11 +157,11 @@ function Reviews() {
 
 function Coaches() {
   const coaches = [
-    { initials: 'SB', name: 'Coach Beverly', role: 'Director', desc: 'OBHS Student Life Coordinator & Track Coach. Founder of Old Bridge Track Club.' },
-    { initials: 'C2', name: 'Coach 2', role: 'Sprint Coach', desc: 'OBHS Track & Field staff. Specialist in sprint mechanics and relay training.' },
-    { initials: 'C3', name: 'Coach 3', role: 'Distance Coach', desc: 'OBHS Track & Field staff. Pacing, endurance fundamentals, and cross country prep.' },
-    { initials: 'C4', name: 'Coach 4', role: 'Drills Coach', desc: 'OBHS Track & Field staff. Leads dynamic warm-up and speed development drills.' },
-    { initials: 'C5', name: 'Coach 5', role: 'Youth Coach', desc: 'OBHS Track & Field staff. Works primarily with 1st–3rd grade group activities.' },
+    { initials: 'SB', name: 'Scott Beverly', role: 'Head Coach', desc: 'OBHS Head Boys Track & Field Coach. Founder of Old Bridge Track Club.' },
+    { initials: 'MT', name: 'Matt Tiplady', role: 'Head Coach', desc: 'OBHS Head Boys Cross Country and Track & Field Coach.' },
+    { initials: 'AC', name: 'Adrian Cline', role: 'Head Coach', desc: 'OBHS Girls Head Cross Country and Track & Field Coach.' },
+    { initials: 'MA', name: 'Michelle Arenella', role: 'Assistant Coach', desc: 'OBHS Girls Assistant Cross Country and Track & Field Coach.' },
+    { initials: 'JP', name: 'Jim Phillips', role: 'Assistant Coach', desc: 'OBHS Boys Assistant Cross Country and Track & Field Coach.' },
   ];
   return (
     <section className="coaches" id="coaches">
