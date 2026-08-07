@@ -477,8 +477,9 @@ body {
 .program-card img {
   width: 100%;
   display: block;
-  object-fit: cover;
-  height: 340px;
+  object-fit: contain;
+  height: 480px;
+  background: var(--card-bg);
 }
 
 .program-overlay {
