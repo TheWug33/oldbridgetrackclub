@@ -334,9 +334,9 @@ body {
 
 .logo-badge {
   position: relative;
-  width: 380px;
+  width: 420px;
   max-width: 90vw;
-  padding: 3.5rem 2rem;
+  padding: 2.5rem 2rem;
   border: 2px solid var(--purple);
   border-radius: 16px;
   background: linear-gradient(135deg, #0d0a1c 0%, #050409 100%);
@@ -345,34 +345,11 @@ body {
   animation: float 4s ease-in-out infinite;
 }
 
-.logo-line1 {
-  display: block;
-  font-family: 'Bebas Neue', sans-serif;
-  font-size: 2.5rem;
-  letter-spacing: 0.08em;
-  color: var(--white);
-  margin-bottom: 0.6rem;
-}
-
-.logo-line2 {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 0.75rem;
-}
-
-.logo-line2 span {
-  font-family: 'Bebas Neue', sans-serif;
-  font-size: 1.9rem;
-  letter-spacing: 0.1em;
-  color: var(--purple-light);
-}
-
-.wing-icon {
-  width: 46px;
+.logo-img {
+  width: 100%;
   height: auto;
-  color: var(--white);
-  filter: drop-shadow(0 0 10px rgba(155, 109, 222, 0.6));
+  display: block;
+  filter: drop-shadow(0 0 20px rgba(155, 109, 222, 0.4));
 }
 
 .logo-est {
@@ -400,8 +377,8 @@ body {
     order: -1;
   }
   .logo-badge {
-    width: 300px;
-    padding: 2.5rem 1.5rem;
+    width: 320px;
+    padding: 2rem 1.5rem;
   }
 }
 
