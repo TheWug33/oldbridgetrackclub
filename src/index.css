@@ -689,7 +689,7 @@ body {
   border-top: 1px solid rgba(91, 45, 158, 0.3);
   border-bottom: 1px solid rgba(91, 45, 158, 0.3);
   position: relative;
-  padding: 6rem 5vw;
+  padding: 6rem 5vw 4rem;
 }
 
 .cta-label {

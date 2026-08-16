@@ -276,7 +276,6 @@ function CTA() {
           <a href="https://forms.gle/7Ygk6wQPbuVBipbX7" target="_blank" rel="noopener noreferrer" className="btn-primary">Register Now — $85</a>
           <a href="mailto:oldbridgetrackclub@gmail.com" className="btn-outline">Contact Us</a>
         </div>
-        <p className="cta-footer">Email: <a href="mailto:oldbridgetrackclub@gmail.com">oldbridgetrackclub@gmail.com</a><br/>Payments: Zelle - scott.wbeverly@gmail.com</p>
       </div>
     </section>
   );
