@@ -49,8 +49,8 @@ function Hero() {
 function About() {
   const pillars = [
     { icon: '🏃', title: 'Speed & Form', desc: 'Every camp starts with mechanics — proper arm drive, posture, and acceleration. We build speed the right way from day one.' },
-    { icon: '🤝', title: 'Teamwork & Relays', desc: 'From baton handoffs to relay meets, kids learn that track is a team sport too — and they love it.' },
-    { icon: '⭐', title: 'Fun First', desc: "Relays, Sharks and Minnows, obstacle courses, and more! That's what keeps kids coming back." },
+    { icon: '🤝', title: 'Teamwork & Relays', desc: 'From baton handoffs to water relays, kids learn that track is a team sport too — and they love it!' },
+    { icon: '⭐', title: 'Fun First', desc: "Relays, sharks and minnows, obstacle courses, and more! That's what keeps kids coming back." },
     { icon: '🛡️', title: 'Safety & Small Groups', desc: 'Age-grouped sessions (1st–3rd, 4th–6th, 7th–8th) with a 5-coach staff mean every kid gets real attention.' },
   ];
   return (
@@ -276,7 +276,7 @@ function CTA() {
           <a href="https://forms.gle/7Ygk6wQPbuVBipbX7" target="_blank" rel="noopener noreferrer" className="btn-primary">Register Now — $85</a>
           <a href="mailto:oldbridgetrackclub@gmail.com" className="btn-outline">Contact Us</a>
         </div>
-        <p className="cta-footer">Questions? Email <a href="mailto:oldbridgetrackclub@gmail.com">oldbridgetrackclub@gmail.com</a> or Zelle: scott.wbeverly@gmail.com</p>
+        <p className="cta-footer">Email: <a href="mailto:oldbridgetrackclub@gmail.com">oldbridgetrackclub@gmail.com</a><br/>Payments: Zelle - scott.wbeverly@gmail.com</p>
       </div>
     </section>
   );
@@ -293,8 +293,6 @@ function Footer() {
           </div>
           <div className="footer-contact">
             <a href="mailto:oldbridgetrackclub@gmail.com">oldbridgetrackclub@gmail.com</a>
-            <a href="#">Lombardi Field, Old Bridge, NJ</a>
-            <a href="https://forms.gle/7Ygk6wQPbuVBipbX7" target="_blank" rel="noopener noreferrer">Registration Link</a>
           </div>
         </div>
         <div className="footer-bottom">
