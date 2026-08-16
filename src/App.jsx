@@ -33,16 +33,7 @@ function Hero() {
         <div className="hero-text">
           <span className="hero-eyebrow">Old Bridge Track Club</span>
           <h1 className="hero-headline">Run.<br/>Learn.<br/><em>Have Fun.</em></h1>
-          <p className="hero-sub">Youth track &amp; field programs for rising 1st through 8th graders at Lombardi Field, Old Bridge NJ — coached by OBHS Track &amp; Field coaches.</p>
-          <div className="hero-stats">
-            <div><div className="stat-val">8</div><div className="stat-label">Sessions</div></div>
-            <div><div className="stat-val">5</div><div className="stat-label">Coaches</div></div>
-            <div><div className="stat-val">1–8</div><div className="stat-label">All Levels</div></div>
-          </div>
-          <div className="hero-btns">
-            <a href="#programs" className="btn-primary">View Programs</a>
-            <a href="#about" className="btn-outline">Learn More</a>
-          </div>
+          <p className="hero-sub">Youth track and field programs in Old Bridge, NJ — coached by OBHS Track &amp; Field Coaches.</p>
         </div>
         <div className="hero-visual">
           <div className="logo-badge">
@@ -59,7 +50,7 @@ function About() {
   const pillars = [
     { icon: '🏃', title: 'Speed & Form', desc: 'Every camp starts with mechanics — proper arm drive, posture, and acceleration. We build speed the right way from day one.' },
     { icon: '🤝', title: 'Teamwork & Relays', desc: 'From baton handoffs to relay meets, kids learn that track is a team sport too — and they love it.' },
-    { icon: '⭐', title: 'Fun First', desc: "Sharks & minnows, shuttle races, mini meets — every session ends with a game. That's what keeps kids coming back." },
+    { icon: '⭐', title: 'Fun First', desc: "Relays, Sharks and Minnows, obstacle courses, and more! That's what keeps kids coming back." },
     { icon: '🛡️', title: 'Safety & Small Groups', desc: 'Age-grouped sessions (1st–3rd, 4th–6th, 7th–8th) with a 5-coach staff mean every kid gets real attention.' },
   ];
   return (
