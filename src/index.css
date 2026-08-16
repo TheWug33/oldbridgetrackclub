@@ -18,6 +18,11 @@ html {
   scroll-behavior: smooth;
 }
 
+img {
+  max-width: 100%;
+  height: auto;
+}
+
 body {
   background: var(--navy);
   color: var(--white);
@@ -787,3 +792,128 @@ footer {
   font-size: 0.78rem;
 }
 
+
+/* ===== Camps Accordion ===== */
+.camps-subheading {
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 1.5rem;
+  letter-spacing: 0.04em;
+  color: var(--white);
+  margin: 2rem 0 1rem;
+}
+
+.camps-subheading:first-of-type {
+  margin-top: 0;
+}
+
+.camps-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.camp-card {
+  background: var(--card-bg);
+  border: 1px solid rgba(91, 45, 158, 0.25);
+  border-radius: 10px;
+  overflow: hidden;
+  transition: border-color 0.2s;
+}
+
+.camp-card.open {
+  border-color: var(--purple-light);
+}
+
+.camp-card-header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 1rem 1.25rem;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  text-align: left;
+  font-family: inherit;
+}
+
+.camp-card-header-text {
+  min-width: 0;
+}
+
+.camp-tag {
+  display: inline-block;
+  background: var(--purple-light);
+  color: var(--navy);
+  font-size: 0.62rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  padding: 0.25rem 0.6rem;
+  border-radius: 3px;
+  margin-bottom: 0.4rem;
+}
+
+.camp-name {
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 1.3rem;
+  letter-spacing: 0.03em;
+  color: var(--white);
+  line-height: 1.1;
+}
+
+.camp-info {
+  font-size: 0.78rem;
+  color: var(--grey);
+  margin-top: 0.2rem;
+}
+
+.camp-chevron {
+  flex-shrink: 0;
+  font-size: 1.2rem;
+  color: var(--purple-light);
+  transition: transform 0.2s;
+}
+
+.camp-card.open .camp-chevron {
+  transform: rotate(180deg);
+}
+
+.camp-card-body {
+  padding: 0 1.25rem 1.25rem;
+  border-top: 1px solid rgba(91, 45, 158, 0.2);
+  padding-top: 1.25rem;
+}
+
+.camp-flyer-img {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+}
+
+.camp-details {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+  margin-bottom: 1rem;
+}
+
+.camp-detail {
+  font-size: 0.85rem;
+  color: rgba(255, 255, 255, 0.75);
+}
+
+.camp-detail strong {
+  color: var(--purple-light);
+}
+
+.camp-register-btn {
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+}
