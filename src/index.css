@@ -431,8 +431,14 @@ body {
 }
 
 .pillar-icon {
-  font-size: 1.8rem;
   flex-shrink: 0;
+  color: var(--purple-light);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 26px;
+  height: 26px;
+  margin-top: 0.15rem;
 }
 
 .pillar-title {

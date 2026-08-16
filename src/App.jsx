@@ -46,12 +46,42 @@ function Hero() {
   );
 }
 
+function PillarIcon({ name }) {
+  const common = { width: 26, height: 26, viewBox: "0 0 24 24", fill: "none", stroke: "currentColor", strokeWidth: 1.6, strokeLinecap: "round", strokeLinejoin: "round" };
+  if (name === 'speed') {
+    return (
+      <svg {...common}><polygon points="13 2 4 14 11 14 10 22 20 10 13 10 13 2" /></svg>
+    );
+  }
+  if (name === 'team') {
+    return (
+      <svg {...common}>
+        <path d="M17 21v-2a4 4 0 0 0-4-4H7a4 4 0 0 0-4 4v2" />
+        <circle cx="10" cy="7" r="4" />
+        <path d="M22.5 21v-2a4 4 0 0 0-3-3.87" />
+        <path d="M16.5 3.13a4 4 0 0 1 0 7.75" />
+      </svg>
+    );
+  }
+  if (name === 'fun') {
+    return (
+      <svg {...common}><polygon points="12 2 15.09 8.63 22 9.24 16.5 13.97 18.18 21 12 17.27 5.82 21 7.5 13.97 2 9.24 8.91 8.63 12 2" /></svg>
+    );
+  }
+  if (name === 'safety') {
+    return (
+      <svg {...common}><path d="M12 2 4 5v6c0 5.25 3.4 9.74 8 11 4.6-1.26 8-5.75 8-11V5l-8-3z" /></svg>
+    );
+  }
+  return null;
+}
+
 function About() {
   const pillars = [
-    { icon: '🏃', title: 'Speed & Form', desc: 'Every camp starts with mechanics — proper arm drive, posture, and acceleration. We build speed the right way from day one.' },
-    { icon: '🤝', title: 'Teamwork & Relays', desc: 'From baton handoffs to water relays, kids learn that track is a team sport too — and they love it!' },
-    { icon: '⭐', title: 'Fun First', desc: "Relays, sharks and minnows, obstacle courses, and more! That's what keeps kids coming back." },
-    { icon: '🛡️', title: 'Safety & Small Groups', desc: 'Age-grouped sessions (1st–3rd, 4th–6th, 7th–8th) with a 5-coach staff mean every kid gets real attention.' },
+    { icon: 'speed', title: 'Speed & Form', desc: 'Every camp starts with mechanics — proper arm drive, posture, and acceleration. We build speed the right way from day one.' },
+    { icon: 'team', title: 'Teamwork & Relays', desc: 'From baton handoffs to water relays, kids learn that track is a team sport too — and they love it!' },
+    { icon: 'fun', title: 'Fun First', desc: "Relays, sharks and minnows, obstacle courses, and more! That's what keeps kids coming back." },
+    { icon: 'safety', title: 'Safety & Small Groups', desc: 'Age-grouped sessions (1st–3rd, 4th–6th, 7th–8th) with a 5-coach staff mean every kid gets real attention.' },
   ];
   return (
     <section className="about" id="about">
@@ -65,7 +95,7 @@ function About() {
           <div className="about-pillars">
             {pillars.map((p, i) => (
               <div key={i} className="pillar">
-                <div className="pillar-icon">{p.icon}</div>
+                <div className="pillar-icon"><PillarIcon name={p.icon} /></div>
                 <div>
                   <div className="pillar-title">{p.title}</div>
                   <div className="pillar-desc">{p.desc}</div>
@@ -83,7 +113,7 @@ const CAMPS = [
   {
     id: 'summer-2025',
     category: 'past',
-    tag: 'Summer 2025',
+    tag: 'Summer 2026',
     name: 'Youth Summer Track Camp',
     info: 'Rising 1st–8th Graders · Lombardi Field',
     image: IMAGES.summer,
