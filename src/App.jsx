@@ -343,8 +343,6 @@ export default function App() {
       <div className="lane-divider"></div>
       <Programs />
       <div className="lane-divider"></div>
-      <Reviews />
-      <div className="lane-divider"></div>
       <Coaches />
       <CTA />
       <Footer />
