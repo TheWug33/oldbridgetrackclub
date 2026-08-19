@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import { Analytics } from '@vercel/analytics/react';
 import './index.css';
 
 const IMAGES = {
@@ -346,6 +347,7 @@ export default function App() {
       <Coaches />
       <CTA />
       <Footer />
+      <Analytics />
     </>
   );
 }
