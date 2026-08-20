@@ -334,6 +334,14 @@ function Footer() {
   );
 }
 
+function StickyRegisterBar() {
+  return (
+    <a href="https://forms.gle/7Ygk6wQPbuVBipbX7" target="_blank" rel="noopener noreferrer" className="sticky-register-bar">
+      Register Now — $85
+    </a>
+  );
+}
+
 export default function App() {
   return (
     <>
@@ -347,6 +355,7 @@ export default function App() {
       <Coaches />
       <CTA />
       <Footer />
+      <StickyRegisterBar />
       <Analytics />
     </>
   );
