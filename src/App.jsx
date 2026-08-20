@@ -3,11 +3,11 @@ import { Analytics } from '@vercel/analytics/react';
 import './index.css';
 
 const IMAGES = {
-  logo: "/images/logo.png",
-  summer: "/images/summer.jpg",
-  fallRunning: "/images/fallRunning.jpg",
-  summerMini: "/images/summerMini.jpg",
-  youthRunning: "/images/youthRunning.jpg",
+  logo: "/logo.png",
+  summer: "/summer.jpg",
+  fallRunning: "/fallRunning.jpg",
+  summerMini: "/summerMini.jpg",
+  youthRunning: "/youthRunning.jpg",
 };
 
 function Nav() {
