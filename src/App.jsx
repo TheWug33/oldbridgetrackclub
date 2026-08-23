@@ -10,6 +10,14 @@ const IMAGES = {
   youthRunning: "/youthRunning.jpg",
 };
 
+function AnnouncementBar() {
+  return (
+    <div className="announcement-bar">
+      Next camp begins 9/26/26
+    </div>
+  );
+}
+
 function Nav() {
   return (
     <nav className="nav">
@@ -345,6 +353,7 @@ function StickyRegisterBar() {
 export default function App() {
   return (
     <>
+      <AnnouncementBar />
       <Nav />
       <Hero />
       <div className="lane-divider"></div>
