@@ -13,7 +13,7 @@ const IMAGES = {
 function AnnouncementBar() {
   return (
     <div className="announcement-bar">
-      Next camp begins 9/26/26
+      NEXT CAMP BEGINS ON 9/26/26
     </div>
   );
 }
