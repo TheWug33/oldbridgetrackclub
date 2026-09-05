@@ -13,7 +13,17 @@ const IMAGES = {
 function AnnouncementBar() {
   return (
     <div className="announcement-bar">
-      NEXT CAMP BEGINS ON 9/26/26
+      Next camp begins 9/26/26
+    </div>
+  );
+}
+
+function QuickTabs() {
+  return (
+    <div className="quick-tabs">
+      <a href="#about">About</a>
+      <a href="#programs">Camps</a>
+      <a href="#coaches">Staff</a>
     </div>
   );
 }
@@ -28,7 +38,7 @@ function Nav() {
         <li><a href="#reviews">Reviews</a></li>
         <li><a href="#coaches">Coaches</a></li>
       </ul>
-      <a href="https://forms.gle/7Ygk6wQPbuVBipbX7" target="_blank" rel="noopener noreferrer" className="nav-cta">Register Now</a>
+      <a href="https://forms.gle/7Ygk6wQPbuVBipbX7" target="_blank" rel="noopener noreferrer" className="nav-cta">Register Now for our Fall Running Camp</a>
     </nav>
   );
 }
@@ -355,6 +365,7 @@ export default function App() {
     <>
       <AnnouncementBar />
       <Nav />
+      <QuickTabs />
       <Hero />
       <div className="lane-divider"></div>
       <About />
