@@ -237,12 +237,11 @@ body {
 
 /* === Hero === */
 .hero {
-  min-height: 100vh;
   display: flex;
   align-items: center;
   position: relative;
   overflow: hidden;
-  padding-top: 2rem;
+  padding: 2rem 0 4rem;
 }
 
 .quick-tabs {
