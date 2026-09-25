@@ -13,7 +13,7 @@ const IMAGES = {
 function AnnouncementBar() {
   return (
     <div className="announcement-bar">
-      Next camp begins 9/26/26
+      ⚠️ Session 1 (9/26) postponed due to weather — camp now begins 10/3/26
     </div>
   );
 }
@@ -179,7 +179,7 @@ const CAMPS = [
     info: 'Grades 4–8 · Lombardi Field',
     image: IMAGES.youthRunning,
     details: [
-      { label: 'Dates', value: '5 sessions: 9/26, 10/3, 10/10, 10/17, 10/24' },
+      { label: 'Dates', value: '5 sessions: 10/3, 10/10, 10/17, 10/24, 10/31' },
       { label: 'Time', value: '8:00 AM – 8:45 AM' },
       { label: 'Price', value: '$85/child' },
       { label: 'Focus', value: 'Running Form & Mechanics, Teamwork, Coordination, Speed Development' },

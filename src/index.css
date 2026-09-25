@@ -143,7 +143,7 @@ body {
   left: 0;
   right: 0;
   z-index: 101;
-  height: 34px;
+  min-height: 34px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -153,7 +153,15 @@ body {
   font-weight: 700;
   letter-spacing: 0.04em;
   text-align: center;
-  padding: 0 1rem;
+  padding: 8px 1rem;
+  line-height: 1.35;
+}
+
+@media (max-width: 600px) {
+  .announcement-bar {
+    font-size: 0.66rem;
+    letter-spacing: 0.02em;
+  }
 }
 
 .nav {
@@ -454,8 +462,11 @@ body {
   .hero-stats {
     gap: 1.5rem;
   }
+  .nav {
+    top: 54px;
+  }
   .quick-tabs {
-    padding-top: 140px;
+    padding-top: 176px;
   }
 }
 
