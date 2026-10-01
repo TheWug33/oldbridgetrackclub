@@ -13,7 +13,7 @@ const IMAGES = {
 function AnnouncementBar() {
   return (
     <div className="announcement-bar">
-      Session 1 will be on 10/3/26
+      Session 1 will be held on 10/3/26
     </div>
   );
 }
